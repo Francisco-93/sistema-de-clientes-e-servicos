@@ -1,0 +1,16 @@
+package br.com.basis.model;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Cliente {
+	private Integer id;
+	private String nome;
+	private String cpf;
+	private LocalDate dataCadastro;
+}
