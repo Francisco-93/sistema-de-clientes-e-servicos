@@ -1,0 +1,5 @@
+package br.com.basis.resource.exception;
+
+public class APIErrors {
+
+}
